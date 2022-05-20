@@ -199,6 +199,7 @@ margin_right = 385.0
 margin_bottom = 216.5
 theme = ExtResource( 8 )
 popup_exclusive = true
+window_title = "Export SVG"
 access = 2
 current_dir = "/home/hiderr/programming/godot/Lorien/lorien"
 current_path = "/home/hiderr/programming/godot/Lorien/lorien/"

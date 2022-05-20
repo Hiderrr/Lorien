@@ -10,10 +10,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Zooming with CTRL+MMB
 - Automatically remembering and auto-opening .lorien files upon exit & launch
 - Fullscreen support
+- Basic SVG exporter
 - The window size will be saved and restored across program restarts
 - Center the canvas based on current mouse position (shortcut: `C`)
 - UI scaling for high-dpi monitors
 - Changing the brush color while having strokes actively selected changes the color of these strokes
+- Translations: Turkish
 
 ### Fixed
 - Fixed misplaced color picker after window resize
@@ -22,6 +24,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Updated to Godot 3.4.4
 - Enabled low-energy mode
 - Improved brush stroke antialiasing
+- Removed rudimentary png export in favor of the new SVG exporter 
 - Made the brush stroke optimizer less aggresive, which results in smoother lines at the expense of slightly bigger savefiles
 - Increased the default pressure sensitvity from 1.0 to 1.5
 
